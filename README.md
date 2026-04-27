@@ -23,6 +23,6 @@ This is a working example of dynamically highlighting sections of a pdf on a nod
 ## How to Run Back end
 1. In terminal run the python file inject_bboxes_to_frontend, with the relative path address. This will look like:
 
-  python ./inject_bboxes_to_frontend.py PDFs/example_pdf.pdf
+  python .python_backend/inject_bboxes_to_frontend.py PDFs/example_pdf.pdf
 
 This will create the bboxes.json and document.pdf in the frontend "public" file directory
